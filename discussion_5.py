@@ -8,8 +8,6 @@ def count_a(sentence):
 			total += 1
 	return total
 
-
-
 # Item class
 # Describes an item to be sold. Each item has a name, a price, and a stock.
 class Item:
@@ -65,9 +63,6 @@ class Warehouse:
 				max_val = item.price
 				max_item = item
 		return max_item
-			
-
-
 
 # Tests
 class TestAllMethods(unittest.TestCase):
